@@ -19,7 +19,7 @@ int main()
             
             acceptor.accept(stream.socket(), errorCode);
 
-            if (true != errorCode)
+            if (!errorCode)
             {
                 stream << "Server Response!";
             }

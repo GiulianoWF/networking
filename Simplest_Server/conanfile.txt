@@ -1,5 +1,5 @@
 [requires]
-asio/1.19.2
+boost/1.79.0
 
 [generators]
 cmake
